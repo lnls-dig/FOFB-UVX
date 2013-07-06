@@ -43,7 +43,7 @@ if strcmpi(fields{2}, 'ERROR')
     error(['FOFB acquisition error: ' fields{3}]);
 
 elseif strcmpi(fields{2}, 'STOPPED')
-    disp('The acquisition has been stopped successfully');
+    disp('Data acquisition has been stopped successfully.');
 end
 
 % closes socket connection

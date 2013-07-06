@@ -12,6 +12,7 @@
 	<Item Name="Type BPM Variables.ctl" Type="VI" URL="../Types Definitions/Type BPM Variables.ctl"/>
 	<Item Name="Type Configuration Change Acknowledge (Controller to GUI).ctl" Type="VI" URL="../Types Definitions/Type Configuration Change Acknowledge (Controller to GUI).ctl"/>
 	<Item Name="Type Configuration Data (GUI to Controller).ctl" Type="VI" URL="../Types Definitions/Type Configuration Data (GUI to Controller).ctl"/>
+	<Item Name="Type Configuration Loop Mode.ctl" Type="VI" URL="../Types Definitions/Type Configuration Loop Mode.ctl"/>
 	<Item Name="Type Controller Operation Mode.ctl" Type="VI" URL="../Types Definitions/Type Controller Operation Mode.ctl"/>
 	<Item Name="Type Controller Parameters.ctl" Type="VI" URL="../Types Definitions/Type Controller Parameters.ctl"/>
 	<Item Name="Type Correction Algorithm Configuration.ctl" Type="VI" URL="../Types Definitions/Type Correction Algorithm Configuration.ctl"/>

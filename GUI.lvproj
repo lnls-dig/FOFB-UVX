@@ -74,7 +74,7 @@
 			<Item Name="Common VIs.lvlib" Type="Library" URL="../Common VIs.lvlib"/>
 			<Item Name="File VIs.lvlib" Type="Library" URL="../File VIs.lvlib"/>
 			<Item Name="Filter VIs.lvlib" Type="Library" URL="../Filter VIs.lvlib"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Arquivos de programas/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="Misc VIs.lvlib" Type="Library" URL="../Misc VIs.lvlib"/>
 			<Item Name="Third Party VIs.lvlib" Type="Library" URL="../Third Party VIs.lvlib"/>
 			<Item Name="Type Definitions.lvlib" Type="Library" URL="../Type Definitions.lvlib"/>
@@ -137,7 +137,7 @@
 				<Property Name="Destination[0].type" Type="Str">absFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{5ECC8FF1-BCAD-4197-9C95-4E94E2A6AB6D}</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{8063690D-9E7F-4879-87F8-CD140194C62A}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2011 SP1</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{6AD6C111-233B-4924-A3BF-E4813FE23C7A}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
@@ -147,7 +147,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">GUI FOFB UVX Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{3BC0971C-13FE-489E-81D1-475524D04064}</Property>
 				<Property Name="INST_productName" Type="Str">GUI FOFB UVX</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.15</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">11008029</Property>
 				<Property Name="MSI_arpCompany" Type="Str">CNPEM - LNLS</Property>

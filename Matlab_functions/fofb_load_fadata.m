@@ -1,15 +1,5 @@
 function r = fofb_load_fadata(filename)
 % r = fofb_load_fadata(filename)
-%
-% Lê arquivo binário contendo dados de órbita adquiridos com o sistema FOFB
-%
-% Input
-%
-% filename:     nome do arquivo.
-%
-% Histórico
-%
-% 2011-05-27: versão Beta
 
 try
     file_id = fopen(filename);

@@ -11,17 +11,18 @@
     <Configuration_GUI_TCP_Port type='U16'>3602</Configuration_GUI_TCP_Port>
     <TCP_Listening_Timeout type='I32'>1000</TCP_Listening_Timeout>
   </Network>
-  <Fast_Acquisition mems='2'>
+  <Fast_Acquisition mems='3'>
     <Acquisition_Period type='U32'>330</Acquisition_Period>
     <Data_Buffer_Size type='U32'>10000</Data_Buffer_Size>
+    <Monitoring_Period type='U32'>400000</Monitoring_Period>
   </Fast_Acquisition>
   <Response_Matrix_Measurement mems='4'>
-    <Step_Amplitude type='DBL'>0</Step_Amplitude>
+    <Step_Amplitude type='DBL'>0.65</Step_Amplitude>
     <Time_Between_Steps type='U32'>1000</Time_Between_Steps>
     <Step_Duration type='U32'>2000</Step_Duration>
     <Number_of_Averages type='U32'>100</Number_of_Averages>
   </Response_Matrix_Measurement>
-  <Correction_Algorithm mems='8'>
+  <Correction_Algorithm mems='10'>
     <Correction_Period type='U32'>330</Correction_Period>
     <Reference_Orbit_Path type='Path'>c:\fofb\Orbit\Referencia.orb</Reference_Orbit_Path>
     <Response_Matrix_Path type='Path'>c:\fofb\Response Matrix\BBY6TMedida.resp</Response_Matrix_Path>
@@ -30,6 +31,8 @@
     <Vertical_Correction_Factor type='DBL'>0.001</Vertical_Correction_Factor>
     <Beam_Current_FOFB_Threshold type='DBL'>10</Beam_Current_FOFB_Threshold>
     <Decouple_H-V type='Bool'>TRUE</Decouple_H-V>
+    <Use_Additional_BPM_LPF type='Bool'>FALSE</Use_Additional_BPM_LPF>
+    <BPM_LPF_Cutoff type='DBL'>10</BPM_LPF_Cutoff>
   </Correction_Algorithm>
   <Acquisition_Network dim='[0]' type='Cluster'>
     <Node mems='2'>

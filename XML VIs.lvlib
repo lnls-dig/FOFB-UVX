@@ -8,8 +8,8 @@
 	<Item Name="XML Get Acquisition Chassis.vi" Type="VI" URL="../XML VIs/XML Get Acquisition Chassis.vi"/>
 	<Item Name="XML Get Actuation Chassis.vi" Type="VI" URL="../XML VIs/XML Get Actuation Chassis.vi"/>
 	<Item Name="XML Get Paths.vi" Type="VI" URL="../XML VIs/XML Get Paths.vi"/>
-	<Item Name="XML Load from FOFB Controller.vi" Type="VI" URL="../XML VIs/XML Load from FOFB Controller.vi"/>
+	<Item Name="XML Load from Controller.vi" Type="VI" URL="../XML VIs/XML Load from Controller.vi"/>
 	<Item Name="XML Read.vi" Type="VI" URL="../XML VIs/XML Read.vi"/>
-	<Item Name="XML Write to FOFB Controller.vi" Type="VI" URL="../XML VIs/XML Write to FOFB Controller.vi"/>
+	<Item Name="XML Write to Controller.vi" Type="VI" URL="../XML VIs/XML Write to Controller.vi"/>
 	<Item Name="XML Write.vi" Type="VI" URL="../XML VIs/XML Write.vi"/>
 </Library>
