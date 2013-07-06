@@ -1,0 +1,1 @@
+http://lavag.org/topic/12751-how-do-you-make-your-application-window-frontmost/

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EtherCATModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\EtherCATModule.xsd" Version="1.3">
+	<Vendor>
+		<Id>#x1F9</Id>
+		<Name>National Instruments</Name>
+	</Vendor>
+	<Modules>
+		<Module>
+			<Type ModuleIdent="1599329588" ModuleClass="cRIO">User Defined Variables</Type>
+			<Name>User Defined Variables</Name>
+				<RxPdo Fixed="1" Sm="2">
+					<Index DependOnSlot="1">#x1600</Index>
+					<Name>Output Variables</Name>
+					<Entry>
+						<Index DependOnSlot="1">#x7000</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ACH07B-Setpoint</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x7001</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ACH08-Setpoint</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x7002</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ACH09A-Setpoint</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x7003</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ACV07B-Setpoint</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x7004</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ACV09A-Setpoint</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x7005</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ALV08A-Setpoint</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x7006</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ALV08B-Setpoint</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x7007</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>PS-RA04B-Enable</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x7008</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>PS-RA04B-ON-OFF</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x7009</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>RRA04B-Setpoint</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+
+				</RxPdo>				<TxPdo Fixed="1" Sm="3">
+					<Index DependOnSlot="1">#x1A00</Index>
+					<Name>Input Variables</Name>
+					<Entry>
+						<Index DependOnSlot="1">#x6000</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ACH07B-Reading</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x6001</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ACH08-Reading</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x6002</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ACH09A-Reading</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x6003</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ACV07B-Reading</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x6004</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ACV09A-Reading</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x6005</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ALV08A-Reading</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x6006</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>ALV08B-Reading</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x6007</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>PS-RA04B-Status</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index DependOnSlot="1">#x6008</Index>
+						<SubIndex>0</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>RRA04B-Reading</Name>
+						<DataType>UDINT</DataType>
+					</Entry>
+
+				</TxPdo>
+			<Mailbox>
+				<CoE SdoInfo="1" PdoAssign="1" PdoUpload="1"  CompleteAccess="1" SegmentedSdo="0" ModuleOD="1"/>
+			</Mailbox>						
+			<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000C40E0000C40E0000000000000000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00DDDDDDDDD8888DDDD666666666FF8DDDD6C8C8C868FF8DDDD68C8C8C867F8DDDD6C8C8C86877800DD68C8C8C8677800DD6C8C8C868F7800D868C8C8C8677800D86C8C8C86878800D668C8C8C86F7800D86C8C8C868FF800DD68C8C8C86FF8DDDD666666666778DDDDDDDDDDDDD88DDDD</ImageData16x14>
+		</Module>
+	</Modules>
+</EtherCATModule>

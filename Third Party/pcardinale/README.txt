@@ -1,0 +1,1 @@
+http://forums.ni.com/t5/LabVIEW/Detect-data-type-within-Variant/td-p/1666200/page/2
