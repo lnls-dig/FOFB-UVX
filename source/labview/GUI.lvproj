@@ -43,6 +43,7 @@
 				<Item Name="FTP Session.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/internet/ftp/ftp0.llb/FTP Session.ctl"/>
 				<Item Name="FTP Status" Type="VI" URL="/&lt;vilib&gt;/addons/internet/ftp/ftp2.llb/FTP Status"/>
 				<Item Name="FTP Type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/internet/ftp/ftp0.llb/FTP Type.ctl"/>
+				<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 				<Item Name="Get Semaphore Status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Get Semaphore Status.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="Keyed Array.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/internet/utils/keyedarr.llb/Keyed Array.ctl"/>
@@ -72,7 +73,7 @@
 			<Item Name="Common VIs.lvlib" Type="Library" URL="../Common VIs.lvlib"/>
 			<Item Name="File VIs.lvlib" Type="Library" URL="../File VIs.lvlib"/>
 			<Item Name="Filter VIs.lvlib" Type="Library" URL="../Filter VIs.lvlib"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="Misc VIs.lvlib" Type="Library" URL="../Misc VIs.lvlib"/>
 			<Item Name="Third Party VIs.lvlib" Type="Library" URL="../Third Party VIs.lvlib"/>
 			<Item Name="Type Definitions.lvlib" Type="Library" URL="../Type Definitions.lvlib"/>
@@ -106,7 +107,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Arq/Controle/FOFB/gui_setup/Build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F591A719-263C-4628-A008-1C58F2E9403B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E6D84E6D-D2BF-47B3-80C2-5C2B1A186333}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI Main Window.vi</Property>
@@ -145,7 +146,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">GUI FOFB UVX Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{3BC0971C-13FE-489E-81D1-475524D04064}</Property>
 				<Property Name="INST_productName" Type="Str">GUI FOFB UVX</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.18</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.21</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">11008029</Property>
 				<Property Name="MSI_arpCompany" Type="Str">CNPEM - LNLS</Property>
@@ -160,14 +161,14 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{3BC0971C-13FE-489E-81D1-475524D04064}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{3BC0971C-13FE-489E-81D1-475524D04064}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">fofb_acquire.m</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">fofb_fa_getdata.m</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">GUI FOFB UVX</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">GUI FOFB UVX</Property>
 				<Property Name="Source[0].File[0].Shortcut[2].destIndex" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].Shortcut[2].name" Type="Str">GUI FOFB UVX</Property>
 				<Property Name="Source[0].File[0].Shortcut[2].subDir" Type="Str">GUI FOFB UVX</Property>
-				<Property Name="Source[0].File[0].tag" Type="Ref">/My Computer/matlab/fofb_acquire.m</Property>
+				<Property Name="Source[0].File[0].tag" Type="Ref">/My Computer/matlab/fofb_fa_getdata.m</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">matlab</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/matlab</Property>

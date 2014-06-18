@@ -1,19 +1,23 @@
 <?xml version='1.0' standalone='yes' ?>
 <GXML_Root>
   <Version type='Version'>1.0</Version>
-  <Network mems='8'>
+  <Network mems='12'>
     <FOFB_Controller_IP type='String'>10.0.18.132</FOFB_Controller_IP>
     <LNLS_Control_Network_IP type='String'>10.0.18.132</LNLS_Control_Network_IP>
     <LNLS_Control_Network_Power_Supplies_TCP_Port type='U16'>4001</LNLS_Control_Network_Power_Supplies_TCP_Port>
     <LNLS_Control_Network_FOFB_Configuration_TCP_Port type='U16'>4002</LNLS_Control_Network_FOFB_Configuration_TCP_Port>
+    <LNLS_Control_Network_BPMs_TCP_Port type='U16'>4003</LNLS_Control_Network_BPMs_TCP_Port>
     <Data_Server_TCP_Port type='U16'>3600</Data_Server_TCP_Port>
     <Monitoring_Data_TCP_Port type='U16'>3601</Monitoring_Data_TCP_Port>
     <Configuration_GUI_TCP_Port type='U16'>3602</Configuration_GUI_TCP_Port>
-    <TCP_Listening_Timeout type='I32'>1000</TCP_Listening_Timeout>
+    <Storage_Data_TCP_Port type='U16'>3603</Storage_Data_TCP_Port>
+    <Fast_Command_TCP_Port type='U16'>3604</Fast_Command_TCP_Port>
+    <TCP_Listening_Timeout type='I32'>-1</TCP_Listening_Timeout>
+    <Request_Setpoints_Rate type='U16'>1000</Request_Setpoints_Rate>
   </Network>
   <Fast_Acquisition mems='3'>
-    <Acquisition_Period type='U32'>330</Acquisition_Period>
-    <Data_Buffer_Size type='U32'>10000</Data_Buffer_Size>
+    <Acquisition_Period type='U32'>320</Acquisition_Period>
+    <Data_Buffer_Size type='U32'>100</Data_Buffer_Size>
     <Monitoring_Period type='U32'>400000</Monitoring_Period>
   </Fast_Acquisition>
   <Response_Matrix_Measurement mems='4'>
@@ -22,13 +26,17 @@
     <Step_Duration type='U32'>2000</Step_Duration>
     <Number_of_Averages type='U32'>100</Number_of_Averages>
   </Response_Matrix_Measurement>
-  <Correction_Algorithm mems='10'>
-    <Correction_Period type='U32'>330</Correction_Period>
+  <Correction_Algorithm mems='14'>
+    <Correction_Period type='U32'>320</Correction_Period>
     <Reference_Orbit_Path type='Path'>c:\fofb\Orbit\Referencia.orb</Reference_Orbit_Path>
     <Response_Matrix_Path type='Path'>c:\fofb\Response Matrix\BBY6TMedida.resp</Response_Matrix_Path>
     <Correction_Matrix_Path type='Path'>c:\fofb\Correction Matrix\BBY6T.corr</Correction_Matrix_Path>
-    <Horizontal_Correction_Factor type='DBL'>0.001</Horizontal_Correction_Factor>
-    <Vertical_Correction_Factor type='DBL'>0.001</Vertical_Correction_Factor>
+    <PID_Horizontal_Gain type='DBL'>0.005</PID_Horizontal_Gain>
+    <PID_Vertical_Gain type='DBL'>0.005</PID_Vertical_Gain>
+    <PID_Horizontal_Integral_Time type='DBL'>0.00066</PID_Horizontal_Integral_Time>
+    <PID_Vertical_Integral_Time type='DBL'>0.00066</PID_Vertical_Integral_Time>
+    <PID_Horizontal_Derivative_Time type='DBL'>0.00066</PID_Horizontal_Derivative_Time>
+    <PID_Vertical_Derivative_Time type='DBL'>0.00066</PID_Vertical_Derivative_Time>
     <Beam_Current_FOFB_Threshold type='DBL'>10</Beam_Current_FOFB_Threshold>
     <Decouple_H-V type='Bool'>TRUE</Decouple_H-V>
     <Use_Additional_BPM_LPF type='Bool'>FALSE</Use_Additional_BPM_LPF>

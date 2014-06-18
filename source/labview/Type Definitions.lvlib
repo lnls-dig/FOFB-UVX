@@ -9,10 +9,13 @@
 	<Item Name="Type BPM and PS select cluster.ctl" Type="VI" URL="../Types Definitions/Type BPM and PS select cluster.ctl"/>
 	<Item Name="Type BPM or PS Selector.ctl" Type="VI" URL="../Types Definitions/Type BPM or PS Selector.ctl"/>
 	<Item Name="Type BPM Parameters.ctl" Type="VI" URL="../Types Definitions/Type BPM Parameters.ctl"/>
+	<Item Name="Type BPM Pre Encode.ctl" Type="VI" URL="../Types Definitions/Type BPM Pre Encode.ctl"/>
 	<Item Name="Type BPM Variables.ctl" Type="VI" URL="../Types Definitions/Type BPM Variables.ctl"/>
 	<Item Name="Type Configuration Change Acknowledge (Controller to GUI).ctl" Type="VI" URL="../Types Definitions/Type Configuration Change Acknowledge (Controller to GUI).ctl"/>
 	<Item Name="Type Configuration Data (GUI to Controller).ctl" Type="VI" URL="../Types Definitions/Type Configuration Data (GUI to Controller).ctl"/>
 	<Item Name="Type Configuration Loop Mode.ctl" Type="VI" URL="../Types Definitions/Type Configuration Loop Mode.ctl"/>
+	<Item Name="Type Control FOFB Configuration In.ctl" Type="VI" URL="../Types Definitions/Type Control FOFB Configuration In.ctl"/>
+	<Item Name="Type Control FOFB Configuration Out.ctl" Type="VI" URL="../Types Definitions/Type Control FOFB Configuration Out.ctl"/>
 	<Item Name="Type Controller Operation Mode.ctl" Type="VI" URL="../Types Definitions/Type Controller Operation Mode.ctl"/>
 	<Item Name="Type Controller Parameters.ctl" Type="VI" URL="../Types Definitions/Type Controller Parameters.ctl"/>
 	<Item Name="Type Correction Algorithm Configuration.ctl" Type="VI" URL="../Types Definitions/Type Correction Algorithm Configuration.ctl"/>
@@ -37,10 +40,12 @@
 	<Item Name="Type Monitoring Sample.ctl" Type="VI" URL="../Types Definitions/Type Monitoring Sample.ctl"/>
 	<Item Name="Type Network Configuration.ctl" Type="VI" URL="../Types Definitions/Type Network Configuration.ctl"/>
 	<Item Name="Type Non-blocking Synchronization Objects.ctl" Type="VI" URL="../Types Definitions/Type Non-blocking Synchronization Objects.ctl"/>
+	<Item Name="Type Operation Mode State.ctl" Type="VI" URL="../Types Definitions/Type Operation Mode State.ctl"/>
 	<Item Name="Type PID Parameters.ctl" Type="VI" URL="../Types Definitions/Type PID Parameters.ctl"/>
 	<Item Name="Type PS Parameters.ctl" Type="VI" URL="../Types Definitions/Type PS Parameters.ctl"/>
 	<Item Name="Type PS Variables.ctl" Type="VI" URL="../Types Definitions/Type PS Variables.ctl"/>
 	<Item Name="Type Response Matrix Measurement Configuration.ctl" Type="VI" URL="../Types Definitions/Type Response Matrix Measurement Configuration.ctl"/>
+	<Item Name="Type Storage Data.ctl" Type="VI" URL="../Types Definitions/Type Storage Data.ctl"/>
 	<Item Name="Type Synchronization Objects.ctl" Type="VI" URL="../Types Definitions/Type Synchronization Objects.ctl"/>
 	<Item Name="Type TCP State.ctl" Type="VI" URL="../Types Definitions/Type TCP State.ctl"/>
 </Library>

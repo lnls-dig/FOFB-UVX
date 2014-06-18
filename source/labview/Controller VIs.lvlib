@@ -4,7 +4,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Controller Acquisition and Actuation Loop Wrapper.vi" Type="VI" URL="../Controller VIs/Controller Acquisition and Actuation Loop Wrapper.vi"/>
 	<Item Name="Controller Acquisition and Actuation Loop.vi" Type="VI" URL="../Controller VIs/Controller Acquisition and Actuation Loop.vi"/>
+	<Item Name="Controller Apply BPM Configuration.vi" Type="VI" URL="../Controller VIs/Controller Apply BPM Configuration.vi"/>
 	<Item Name="Controller Apply Configuration from GUI.vi" Type="VI" URL="../Controller VIs/Controller Apply Configuration from GUI.vi"/>
+	<Item Name="Controller Apply Hard Configuration.vi" Type="VI" URL="../Controller VIs/Controller Apply Hard Configuration.vi"/>
+	<Item Name="Controller Apply PS Configuration.vi" Type="VI" URL="../Controller VIs/Controller Apply PS Configuration.vi"/>
 	<Item Name="Controller Apply Soft Configuration.vi" Type="VI" URL="../Controller VIs/Controller Apply Soft Configuration.vi"/>
 	<Item Name="Controller Average Readings Inputs.vi" Type="VI" URL="../Controller VIs/Controller Average Readings Inputs.vi"/>
 	<Item Name="Controller Close Synchronization Objects.vi" Type="VI" URL="../Controller VIs/Controller Close Synchronization Objects.vi"/>
@@ -14,8 +17,12 @@
 	<Item Name="Controller Error Handling Loop.vi" Type="VI" URL="../Controller VIs/Controller Error Handling Loop.vi"/>
 	<Item Name="Controller Extract FOFB Variables.vi" Type="VI" URL="../Controller VIs/Controller Extract FOFB Variables.vi"/>
 	<Item Name="Controller FA File Management Loop.vi" Type="VI" URL="../Controller VIs/Controller FA File Management Loop.vi"/>
+	<Item Name="Controller Fast Command Loop.vi" Type="VI" URL="../Controller VIs/Controller Fast Command Loop.vi"/>
+	<Item Name="Controller FOFB Configuration In to Out.vi" Type="VI" URL="../Controller VIs/Controller FOFB Configuration In to Out.vi"/>
+	<Item Name="Controller Initialize Configuration.vi" Type="VI" URL="../Controller VIs/Controller Initialize Configuration.vi"/>
 	<Item Name="Controller LNLS Control FOFB Configuration Communication Loop.vi" Type="VI" URL="../Controller VIs/Controller LNLS Control FOFB Configuration Communication Loop.vi"/>
 	<Item Name="Controller LNLS Control PS Communication Loop.vi" Type="VI" URL="../Controller VIs/Controller LNLS Control PS Communication Loop.vi"/>
+	<Item Name="Controller Load Configuration From Parameters.vi" Type="VI" URL="../Controller VIs/Controller Load Configuration From Parameters.vi"/>
 	<Item Name="Controller Load Configuration.vi" Type="VI" URL="../Controller VIs/Controller Load Configuration.vi"/>
 	<Item Name="Controller Monitoring Loop.vi" Type="VI" URL="../Controller VIs/Controller Monitoring Loop.vi"/>
 	<Item Name="Controller Open Ethercat Variables.vi" Type="VI" URL="../Controller VIs/Controller Open Ethercat Variables.vi"/>
@@ -27,14 +34,17 @@
 	<Item Name="Controller Read Inputs.vi" Type="VI" URL="../Controller VIs/Controller Read Inputs.vi"/>
 	<Item Name="Controller Read UINT8.vi" Type="VI" URL="../Controller VIs/Controller Read UINT8.vi"/>
 	<Item Name="Controller Report Error.vi" Type="VI" URL="../Controller VIs/Controller Report Error.vi"/>
+	<Item Name="Controller Request PS Setpoints.vi" Type="VI" URL="../Controller VIs/Controller Request PS Setpoints.vi"/>
 	<Item Name="Controller Request Stop.vi" Type="VI" URL="../Controller VIs/Controller Request Stop.vi"/>
 	<Item Name="Controller Response Matrix Measurement Loop.vi" Type="VI" URL="../Controller VIs/Controller Response Matrix Measurement Loop.vi"/>
 	<Item Name="Controller Set and Check PS Status.vi" Type="VI" URL="../Controller VIs/Controller Set and Check PS Status.vi"/>
+	<Item Name="Controller Transform Data.vi" Type="VI" URL="../Controller VIs/Controller Transform Data.vi"/>
 	<Item Name="Controller Write Boolean.vi" Type="VI" URL="../Controller VIs/Controller Write Boolean.vi"/>
 	<Item Name="Controller Write FXP16.5.vi" Type="VI" URL="../Controller VIs/Controller Write FXP16.5.vi"/>
 	<Item Name="Controller Write FXP16.8.vi" Type="VI" URL="../Controller VIs/Controller Write FXP16.8.vi"/>
 	<Item Name="Controller Write FXP20.5.vi" Type="VI" URL="../Controller VIs/Controller Write FXP20.5.vi"/>
 	<Item Name="Controller Write Outputs.vi" Type="VI" URL="../Controller VIs/Controller Write Outputs.vi"/>
+	<Item Name="Controller Write PID Parameters.vi" Type="VI" URL="../Controller VIs/Controller Write PID Parameters.vi"/>
 	<Item Name="Controller Write PS Setpoints.vi" Type="VI" URL="../Controller VIs/Controller Write PS Setpoints.vi"/>
 	<Item Name="Controller Write UINT8.vi" Type="VI" URL="../Controller VIs/Controller Write UINT8.vi"/>
 	<Item Name="Matrix" Type="Variable">

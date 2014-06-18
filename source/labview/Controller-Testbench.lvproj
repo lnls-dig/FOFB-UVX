@@ -14,8 +14,8 @@
 	<Property Name="varPersistentID:{7ACA0CCB-F39D-4581-AE92-46494E34F635}" Type="Ref">/FOFB-Controller-Spare/Actuation Network/PS-RA01B/User-Defined Variables/ACV01B-Reading</Property>
 	<Property Name="varPersistentID:{7E725B76-A53F-486E-B8E9-96A51B3D8BA5}" Type="Ref">/FOFB-Controller-Spare/Actuation Network/PS-RA01B/User-Defined Variables/ACH03A-Setpoint</Property>
 	<Property Name="varPersistentID:{7F35FEEA-063F-434B-B171-DF08F41412F9}" Type="Ref">/FOFB-Controller-Spare/Actuation Network/PS-RA01B/User-Defined Variables/RRA01B-Reading</Property>
+	<Property Name="varPersistentID:{87EADFAA-92A9-46BC-92E8-468B28FD2EA7}" Type="Ref">/FOFB-Controller-Spare/Dependencies/Controller VIs.lvlib/Matrix</Property>
 	<Property Name="varPersistentID:{A4E37E18-5B4F-49DC-8A4A-C7CCE7BA857F}" Type="Ref">/FOFB-Controller-Spare/Actuation Network/PS-RA01B/User-Defined Variables/ALV02B-Setpoint</Property>
-	<Property Name="varPersistentID:{B17D82D9-7E91-4B9A-AB31-7791D9D17EE9}" Type="Ref">/FOFB-Controller-Spare/Dependencies/Controller VIs.lvlib/Matrix</Property>
 	<Property Name="varPersistentID:{C90EF1B1-8A5F-4292-B90C-49424E1B32F4}" Type="Ref">/FOFB-Controller-Spare/Actuation Network/PS-RA01B/User-Defined Variables/ACV03A-Reading</Property>
 	<Property Name="varPersistentID:{CA9459B8-1A8C-4D38-A4C8-67DB16596A74}" Type="Ref">/FOFB-Controller-Spare/Actuation Network/PS-RA01B/User-Defined Variables/ACH01B-Reading</Property>
 	<Property Name="varPersistentID:{ED53FC65-4B66-453E-BD1E-2AE04884D960}" Type="Ref">/FOFB-Controller-Spare/Actuation Network/PS-RA01B/User-Defined Variables/ACV03A-Setpoint</Property>
@@ -1053,8 +1053,19 @@ KeepAliveTimeout 60
 					</Item>
 					<Item Name="Dependencies" Type="Dependencies">
 						<Item Name="vi.lib" Type="Folder">
-							<Item Name="niFPGA I32xI32 Dot Product - 3 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 3 elements I64.vi"/>
+							<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
+							<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 						</Item>
+						<Item Name="CIC Filter.vi" Type="VI" URL="../CIC/CIC Filter.vi"/>
+						<Item Name="Comb.vi" Type="VI" URL="../CIC/Comb.vi"/>
+						<Item Name="CombStage0.vi" Type="VI" URL="../CIC/CombStage0.vi"/>
+						<Item Name="CombStage1.vi" Type="VI" URL="../CIC/CombStage1.vi"/>
+						<Item Name="Filter VIs.lvlib" Type="Library" URL="../Filter VIs.lvlib"/>
+						<Item Name="Integerator.vi" Type="VI" URL="../CIC/Integerator.vi"/>
+						<Item Name="IntegratorStage0.vi" Type="VI" URL="../CIC/IntegratorStage0.vi"/>
+						<Item Name="IntegratorStage1.vi" Type="VI" URL="../CIC/IntegratorStage1.vi"/>
+						<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+						<Item Name="Output.vi" Type="VI" URL="../CIC/Output.vi"/>
 					</Item>
 					<Item Name="Build Specifications" Type="Build">
 						<Item Name="PS-RA01B" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -1455,6 +1466,7 @@ KeepAliveTimeout 60
 				<Item Name="FTP Session.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/internet/ftp/ftp0.llb/FTP Session.ctl"/>
 				<Item Name="FTP Status" Type="VI" URL="/&lt;vilib&gt;/addons/internet/ftp/ftp2.llb/FTP Status"/>
 				<Item Name="FTP Type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/internet/ftp/ftp0.llb/FTP Type.ctl"/>
+				<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 				<Item Name="Get Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Get Scan Engine Mode.vi"/>
 				<Item Name="Get Semaphore Status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Get Semaphore Status.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
@@ -1468,7 +1480,6 @@ KeepAliveTimeout 60
 				<Item Name="NI_InternetTK_Common_VIs.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/internet/NI_InternetTK_Common_VIs.lvlib"/>
 				<Item Name="NI_InternetTK_FTP_VIs.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/internet/NI_InternetTK_FTP_VIs.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Real-Time Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/real-time/NI_Real-Time Libraries.lvlib"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>

@@ -4,7 +4,10 @@
 	<Property Name="NI.Lib.LocalName" Type="Str">Controller Variables - Globals.lvlib</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Controller Diagnostics Data.vi" Type="VI" URL="../Controller Global Variables/Controller Diagnostics Data.vi"/>
-	<Item Name="Controller Status Table.vi" Type="VI" URL="../Controller Global Variables/Controller Status Table.vi"/>
+	<Item Name="Controller Error Status BPM.vi" Type="VI" URL="../Controller Global Variables/Controller Error Status BPM.vi"/>
+	<Item Name="Controller Error Status FOFB.vi" Type="VI" URL="../Controller Global Variables/Controller Error Status FOFB.vi"/>
+	<Item Name="Controller Error Status PS.vi" Type="VI" URL="../Controller Global Variables/Controller Error Status PS.vi"/>
+	<Item Name="Controller LNLS Control BPM Communication Loop.vi" Type="VI" URL="../Controller VIs/Controller LNLS Control BPM Communication Loop.vi"/>
 	<Item Name="LNLS Control FOFB Configuration In.vi" Type="VI" URL="../Controller Global Variables/LNLS Control FOFB Configuration In.vi"/>
 	<Item Name="LNLS Control FOFB Configuration Out.vi" Type="VI" URL="../Controller Global Variables/LNLS Control FOFB Configuration Out.vi"/>
 	<Item Name="Monitoring Data.vi" Type="VI" URL="../Controller Global Variables/Monitoring Data.vi"/>
