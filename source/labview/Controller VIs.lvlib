@@ -14,6 +14,7 @@
 	<Item Name="Controller Configuration Loop.vi" Type="VI" URL="../Controller VIs/Controller Configuration Loop.vi"/>
 	<Item Name="Controller Configure Ethercat.vi" Type="VI" URL="../Controller VIs/Controller Configure Ethercat.vi"/>
 	<Item Name="Controller Data Server Loop.vi" Type="VI" URL="../Controller VIs/Controller Data Server Loop.vi"/>
+	<Item Name="Controller Enable Filters.vi" Type="VI" URL="../Controller VIs/Controller Enable Filters.vi"/>
 	<Item Name="Controller Error Handling Loop.vi" Type="VI" URL="../Controller VIs/Controller Error Handling Loop.vi"/>
 	<Item Name="Controller Extract FOFB Variables.vi" Type="VI" URL="../Controller VIs/Controller Extract FOFB Variables.vi"/>
 	<Item Name="Controller FA File Management Loop.vi" Type="VI" URL="../Controller VIs/Controller FA File Management Loop.vi"/>
@@ -24,6 +25,7 @@
 	<Item Name="Controller LNLS Control PS Communication Loop.vi" Type="VI" URL="../Controller VIs/Controller LNLS Control PS Communication Loop.vi"/>
 	<Item Name="Controller Load Configuration From Parameters.vi" Type="VI" URL="../Controller VIs/Controller Load Configuration From Parameters.vi"/>
 	<Item Name="Controller Load Configuration.vi" Type="VI" URL="../Controller VIs/Controller Load Configuration.vi"/>
+	<Item Name="Controller Load Filter Coefficients.vi" Type="VI" URL="../Controller VIs/Controller Load Filter Coefficients.vi"/>
 	<Item Name="Controller Monitoring Loop.vi" Type="VI" URL="../Controller VIs/Controller Monitoring Loop.vi"/>
 	<Item Name="Controller Open Ethercat Variables.vi" Type="VI" URL="../Controller VIs/Controller Open Ethercat Variables.vi"/>
 	<Item Name="Controller Open Synchronization Objects.vi" Type="VI" URL="../Controller VIs/Controller Open Synchronization Objects.vi"/>
@@ -34,7 +36,6 @@
 	<Item Name="Controller Read Inputs.vi" Type="VI" URL="../Controller VIs/Controller Read Inputs.vi"/>
 	<Item Name="Controller Read UINT8.vi" Type="VI" URL="../Controller VIs/Controller Read UINT8.vi"/>
 	<Item Name="Controller Report Error.vi" Type="VI" URL="../Controller VIs/Controller Report Error.vi"/>
-	<Item Name="Controller Request PS Setpoints.vi" Type="VI" URL="../Controller VIs/Controller Request PS Setpoints.vi"/>
 	<Item Name="Controller Request Stop.vi" Type="VI" URL="../Controller VIs/Controller Request Stop.vi"/>
 	<Item Name="Controller Response Matrix Measurement Loop.vi" Type="VI" URL="../Controller VIs/Controller Response Matrix Measurement Loop.vi"/>
 	<Item Name="Controller Set and Check PS Status.vi" Type="VI" URL="../Controller VIs/Controller Set and Check PS Status.vi"/>
@@ -45,6 +46,7 @@
 	<Item Name="Controller Write FXP20.5.vi" Type="VI" URL="../Controller VIs/Controller Write FXP20.5.vi"/>
 	<Item Name="Controller Write Outputs.vi" Type="VI" URL="../Controller VIs/Controller Write Outputs.vi"/>
 	<Item Name="Controller Write PID Parameters.vi" Type="VI" URL="../Controller VIs/Controller Write PID Parameters.vi"/>
+	<Item Name="Controller Write PS Filter Data and Address.vi" Type="VI" URL="../Controller VIs/Controller Write PS Filter Data and Address.vi"/>
 	<Item Name="Controller Write PS Setpoints.vi" Type="VI" URL="../Controller VIs/Controller Write PS Setpoints.vi"/>
 	<Item Name="Controller Write UINT8.vi" Type="VI" URL="../Controller VIs/Controller Write UINT8.vi"/>
 	<Item Name="Matrix" Type="Variable">
