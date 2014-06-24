@@ -14,12 +14,12 @@
 	<Item Name="Controller Configuration Loop.vi" Type="VI" URL="../Controller VIs/Controller Configuration Loop.vi"/>
 	<Item Name="Controller Configure Ethercat.vi" Type="VI" URL="../Controller VIs/Controller Configure Ethercat.vi"/>
 	<Item Name="Controller Data Server Loop.vi" Type="VI" URL="../Controller VIs/Controller Data Server Loop.vi"/>
-	<Item Name="Controller Enable Filters.vi" Type="VI" URL="../Controller VIs/Controller Enable Filters.vi"/>
 	<Item Name="Controller Error Handling Loop.vi" Type="VI" URL="../Controller VIs/Controller Error Handling Loop.vi"/>
 	<Item Name="Controller Extract FOFB Variables.vi" Type="VI" URL="../Controller VIs/Controller Extract FOFB Variables.vi"/>
 	<Item Name="Controller FA File Management Loop.vi" Type="VI" URL="../Controller VIs/Controller FA File Management Loop.vi"/>
 	<Item Name="Controller Fast Command Loop.vi" Type="VI" URL="../Controller VIs/Controller Fast Command Loop.vi"/>
 	<Item Name="Controller FOFB Configuration In to Out.vi" Type="VI" URL="../Controller VIs/Controller FOFB Configuration In to Out.vi"/>
+	<Item Name="Controller Generate Filter Coefficients.vi" Type="VI" URL="../Controller VIs/Controller Generate Filter Coefficients.vi"/>
 	<Item Name="Controller Initialize Configuration.vi" Type="VI" URL="../Controller VIs/Controller Initialize Configuration.vi"/>
 	<Item Name="Controller LNLS Control FOFB Configuration Communication Loop.vi" Type="VI" URL="../Controller VIs/Controller LNLS Control FOFB Configuration Communication Loop.vi"/>
 	<Item Name="Controller LNLS Control PS Communication Loop.vi" Type="VI" URL="../Controller VIs/Controller LNLS Control PS Communication Loop.vi"/>
@@ -43,9 +43,9 @@
 	<Item Name="Controller Write Boolean.vi" Type="VI" URL="../Controller VIs/Controller Write Boolean.vi"/>
 	<Item Name="Controller Write FXP16.5.vi" Type="VI" URL="../Controller VIs/Controller Write FXP16.5.vi"/>
 	<Item Name="Controller Write FXP16.8.vi" Type="VI" URL="../Controller VIs/Controller Write FXP16.8.vi"/>
+	<Item Name="Controller Write FXP20.2.vi" Type="VI" URL="../Controller VIs/Controller Write FXP20.2.vi"/>
 	<Item Name="Controller Write FXP20.5.vi" Type="VI" URL="../Controller VIs/Controller Write FXP20.5.vi"/>
 	<Item Name="Controller Write Outputs.vi" Type="VI" URL="../Controller VIs/Controller Write Outputs.vi"/>
-	<Item Name="Controller Write PID Parameters.vi" Type="VI" URL="../Controller VIs/Controller Write PID Parameters.vi"/>
 	<Item Name="Controller Write PS Filter Data and Address.vi" Type="VI" URL="../Controller VIs/Controller Write PS Filter Data and Address.vi"/>
 	<Item Name="Controller Write PS Setpoints.vi" Type="VI" URL="../Controller VIs/Controller Write PS Setpoints.vi"/>
 	<Item Name="Controller Write UINT8.vi" Type="VI" URL="../Controller VIs/Controller Write UINT8.vi"/>
@@ -57,4 +57,6 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!R,1!!!"%!A!A!!!!#!!5!#A!!%!"!!!,``````````Q!!!!%!!1!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Untitled 2 (SubVI).vi" Type="VI" URL="../Untitled 2 (SubVI).vi"/>
+	<Item Name="Untitled 3 (SubVI).vi" Type="VI" URL="../Untitled 3 (SubVI).vi"/>
 </Library>

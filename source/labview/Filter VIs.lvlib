@@ -5,6 +5,4 @@
 	<Item Name="MultiChannel Butterworth Filter PtByPt.vi" Type="VI" URL="../Filter VIs/MultiChannel Butterworth Filter PtByPt.vi"/>
 	<Item Name="MultiChannel IIR Cascade Filter PtByPt.vi" Type="VI" URL="../Filter VIs/MultiChannel IIR Cascade Filter PtByPt.vi"/>
 	<Item Name="MultiChannel Moving Average Filter PtByPt.vi" Type="VI" URL="../Filter VIs/MultiChannel Moving Average Filter PtByPt.vi"/>
-	<Item Name="SingleChannel PI Controller.vi" Type="VI" URL="../Filter VIs/SingleChannel PI Controller.vi"/>
-	<Item Name="Suport SingleChannel PI Controller.vi" Type="VI" URL="../Filter VIs/Suport SingleChannel PI Controller.vi"/>
 </Library>

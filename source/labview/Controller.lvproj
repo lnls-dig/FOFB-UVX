@@ -27,6 +27,7 @@
 	<Property Name="varPersistentID:{1F12D76E-5FD0-4D74-B3E1-F127D40A26AF}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA03B/User-Defined Variables/PS-RA03B-ADDR</Property>
 	<Property Name="varPersistentID:{1F8EB8E3-0D56-4F33-9F02-EA487A38823D}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA01B/User-Defined Variables/ACV01B-Setpoint</Property>
 	<Property Name="varPersistentID:{2020E43B-EAE1-4FE7-A107-4EFD639B3994}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA01B/User-Defined Variables/ACH02-Reading</Property>
+	<Property Name="varPersistentID:{20D7F212-53C2-4B5E-A725-499BE6C635DB}" Type="Ref">/FOFB-Controller/Dependencies/Controller VIs.lvlib/Matrix</Property>
 	<Property Name="varPersistentID:{23EF125F-DE19-436A-9A5F-D317F391A500}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA06B/User-Defined Variables/RRA06B-Reading</Property>
 	<Property Name="varPersistentID:{256A7218-1476-4E53-828F-28D16DC29E8E}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA03B/User-Defined Variables/RRA03B-Setpoint</Property>
 	<Property Name="varPersistentID:{26CFEF02-0A87-4172-9990-850B0E8C684D}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA04B/User-Defined Variables/ALV08B-Reading</Property>
@@ -77,7 +78,6 @@
 	<Property Name="varPersistentID:{6DC73E50-6C3C-4837-B8F7-A03640B3A60E}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA05B/User-Defined Variables/PS-RA05B-ON-OFF</Property>
 	<Property Name="varPersistentID:{6DD37BB8-D2C5-4BBB-81A3-57E32EE65BDC}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA04B/User-Defined Variables/RRA04B-Reading</Property>
 	<Property Name="varPersistentID:{717A9FAD-2147-41FD-8323-26FDCCDA0516}" Type="Ref">/FOFB-Controller/Acquisition Network/BPM-Chassis05/User-Defined Variables/AMP10AV</Property>
-	<Property Name="varPersistentID:{72A90075-D1F6-4AED-8479-60D5BA5CD09A}" Type="Ref">/FOFB-Controller/Dependencies/Controller VIs.lvlib/Matrix</Property>
 	<Property Name="varPersistentID:{72F98B5E-F5AF-4C55-8FF5-3F500385265A}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA05B/User-Defined Variables/ALV10B-Setpoint</Property>
 	<Property Name="varPersistentID:{73B35D86-67F2-4C97-9187-69226FE25E70}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA05B/User-Defined Variables/PS-RA05B-DATA</Property>
 	<Property Name="varPersistentID:{73BA4BC6-2AE6-4394-A11A-76CE987823A0}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA03B/User-Defined Variables/ACV05B-Setpoint</Property>
@@ -3138,6 +3138,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ACH01B-Reading</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3156,6 +3157,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ACH01B-Setpoint</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3174,6 +3176,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ACV01B-Reading</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3192,6 +3195,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ACV01B-Setpoint</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3210,6 +3214,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ACH03A-Reading</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3228,6 +3233,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ACH03A-Setpoint</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3246,6 +3252,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ACV03A-Reading</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3264,6 +3271,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ACV03A-Setpoint</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3282,6 +3290,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ALV02A-Reading</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3300,6 +3309,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ALV02A-Setpoint</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3318,6 +3328,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ALV02B-Reading</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3336,6 +3347,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ALV02B-Setpoint</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3354,6 +3366,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ACH02-Reading</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3372,6 +3385,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">ACH02-Setpoint</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3390,6 +3404,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">RRA01B-Reading</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3408,6 +3423,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">RRA01B-Setpoint</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3426,6 +3442,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">PS-RA01B-Status</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3444,6 +3461,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">PS-RA01B-ON-OFF</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -3463,6 +3481,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">PS-RA01B-ADDR</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
@@ -3482,6 +3501,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">PS-RA01B-DATA</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
@@ -3501,6 +3521,7 @@ KeepAliveTimeout 60
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="name" Type="Str">PS-RA01B-Controller-Filter</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
@@ -4402,7 +4423,7 @@ KeepAliveTimeout 60
 						<Property Name="cRIOModule.HotSwapMode" Type="Str">0</Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{BDC85CB5-884D-4600-AAA6-07FC83C9136B}</Property>
 					</Item>
-					<Item Name="PS-RA01B FPGA.vi" Type="VI" URL="../Actuation Network VIs/PS-RA01B FPGA.vi">
+					<Item Name="PS-RA01B FPGA (Testbench).vi" Type="VI" URL="../Actuation Network VIs/PS-RA01B FPGA (Testbench).vi">
 						<Property Name="BuildSpec" Type="Str">{759A5B88-3892-4F2B-B4E6-A54BA84730E3}</Property>
 						<Property Name="configString.guid" Type="Str">{01A72782-C900-476E-9E5E-735420A0FBC4}/name=ACH01B-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=0{04BB684D-2221-4A78-83BC-69E8C2DB5459}/name=PS-RA01B-ADDR/datatype=8/direction=1/index=10{0A5A0927-BC6C-46A0-AD72-22DBBB06C609}resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{15ED3B25-4A4C-4B16-BCDA-32B73E55DED6}/name=ACV03A-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=3{1B47018F-E542-493C-8B09-23CE3CF7A83C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{1EB72742-245A-49D7-9742-D8182125446D}resource=/crio_Mod5/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{1F6717EA-51D1-4021-ABB0-36EF9B0063CA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{2E7701BF-58FF-4653-8788-4254BF68E871}resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{3492ADF3-D4EE-4ADD-8069-000FFFA346BF}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{354BAA26-2DBE-4F76-A9FC-D81D57254A0E}/name=PS-RA01B-Controller-Filter/datatype=0/direction=1/index=10{3568EC4F-3047-4819-99ED-44DF3EF2EA0C}resource=/crio_Mod5/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{3952B0C8-2D7D-423A-9991-09DE2726CFAB}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{3B7C58D8-DE64-4D02-B3DD-8EAD42A6819E}resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{3F4EE839-CBBE-4D16-99EE-92EB534CBBB3}resource=/Scan Clock;0;ReadMethodType=bool{43027A34-92BB-4E93-AA0C-E53061776D73}Actual Number of Elements=48;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001003C005F03510014000000020001000100000002FFFFFFFFFFFFFFFF0000001300000001000000000007FFFF00000001FFFFFFEF000000000000000100010000000000000000000000000000;InitDataHash=;DRAM Selection=;DRAM Max Outstanding Requests=32;DRAM Include Byte Enables=FALSE;DRAM Grant Time=5;Interface Configuration=Read A-Write B{44E8855A-0BB5-4BA3-B036-A139590CB4BD}/name=ACV01B-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=1{45884519-1BA1-40FB-BC3E-73076ABD721B}/name=ACV01B-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=1{463A4A99-EF0C-48F0-896F-9F090F37AC80}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9215,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{480610BC-51D2-4BD3-B44B-C90E918C4482}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{4AF08F9D-5E34-4A17-AC63-448044890DC5}NumberOfSyncRegistersForReadInProject=Auto;resource=/Input Virtual Point;0;ReadMethodType=bool{4B3F431C-DF50-4CC8-9D14-09C465029E24}resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4DD9B0E1-08AB-4DD4-BB37-34EF60765AA9}/name=ACH02-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=6{50F5D276-2820-43D1-835E-3B58EC6A4594}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{514142CF-E5D1-4C34-BADA-B916AC0F6311}/name=PS-RA01B-Status/datatype=8/direction=0/index=8{55864609-7584-45A3-AFE2-C897F2ED4A33}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{5D07C345-3132-4FEB-B553-D02DEFB9661A}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{5EAB4A23-5504-4106-A1AB-C563740B27FB}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{5FE70661-24FC-4961-ADB8-08EE25C4B5C6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{60064BC0-2F10-401D-8F23-2EFBEC0C6F3D}resource=/Chassis Temperature;0;ReadMethodType=i16{61DA4742-DB57-4C1E-8B0A-D6E9DC4CC053}/name=RRA01B-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=7{634D44E4-E2CA-4FC2-99BE-8C9DDFCC4D6F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{6CD4D64B-81B2-4648-AC9A-723B7E5DD004}resource=/crio_Mod6/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{7134FC99-6BA6-4D7F-83CC-6F286655F311}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{71F39755-3688-4661-BD93-1584949A2649}/name=PS-RA01B-DATAsigned=1/intWordLen=2/fractWordLen=18/delta=1x2^-18/rangeMax=7FFFFx2^-18/rangeMin=Fx2^1/overflow=0/direction=1/index=9{7FD8BBA9-5431-41DF-BF3D-573BC521ECBE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8{8035818F-8E9B-4BAF-999B-1CDAB10694B7}resource=/crio_Mod6/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{854FFCB4-D550-44A7-896F-CE2A29FE083B}resource=/crio_Mod5/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{88010BAC-37B8-49B7-919C-F2E39416D9E4}resource=/crio_Mod6/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{8B1BFA0E-9D71-4128-BDD3-A61E9693B9BA}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{90366BB8-B92D-4EED-9E09-FF1FDF1F0E5E}resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{921F30C4-6628-4CE2-848D-2472BD423EB8}NumberOfSyncRegistersForReadInProject=Auto;resource=/Output Virtual Point;0;ReadMethodType=bool{98E6116D-78F3-4566-8E34-CB7A67B3A777}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{99C5DA1A-434D-48B4-9B0D-B07BB8DD1AAB}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{9C8ED736-E599-4C11-84F1-9324085E06B9}resource=/crio_Mod6/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A5020DE0-B8B9-491B-B6F4-A614BB93122A}/name=ALV02B-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=5{A62BAA99-98F5-4E4E-AF57-D61757A1FD85}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{A7F1D330-9229-41D6-890A-CE673A06D837}/name=ALV02A-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=4{A8DD9D55-BE1E-4790-80C6-656B896EEC13}/name=RRA01B-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=7{B57622BF-6BED-4D4F-93A0-095CBFDFA3B1}resource=/crio_Mod5/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{B5D87559-250C-480D-9D08-89E5B6896858}resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{B6E10CC6-B09C-4D43-836E-CF3C2F94816B}/name=ACH03A-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=2{BB06FB19-99C0-486E-BF4F-3CD784D2296D}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{BB4CB55A-7CAE-480E-942F-090AB0873289}/name=ALV02A-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=4{BC5330BB-2AA6-4172-89E2-7C88775921A0}NumberOfSyncRegistersForReadInProject=Auto;resource=/EtherCAT State;0;ReadMethodType=u8{BDC85CB5-884D-4600-AAA6-07FC83C9136B}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 6,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{BF956229-EA78-4057-9A32-7C80E99CF457}resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{C084C675-8688-465D-9CAB-71F10572C45F}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{C282A11B-A436-4429-8263-66CE138DB650}/name=ACH01B-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=0{C8DC9FD2-49B5-4CBD-A6B9-DD5122A111DA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{C946E1D3-9B14-4932-9596-3EFF0616D7E4}resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{C9F2C428-E3CA-4819-9C56-79BFEDFD160B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{CB5BEE74-BB55-436D-A311-6D1EF6F32A89}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8{CE91C4C3-F2A5-4BBC-BA14-EAA831BECBFB}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9215,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{D887E6AA-3C13-48FD-AAA1-C118CB739FE1}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{D92D1476-FB2F-49EE-AD65-AF26B5B8C0F2}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{DDA61CD7-90ED-4752-9E98-02DEE354FBA3}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{EEC5C96C-91FC-4826-B868-ED15BAE92793}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=1,cRIOModule.DIO7_4InitialDir=1,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{F229B2E0-CC62-4C89-8FC9-3701D817701A}/name=ACV03A-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=3{F33A2A3E-E073-4544-8C77-95B715405A38}/name=PS-RA01B-ON-OFF/datatype=8/direction=1/index=8{F7D61B82-4D6C-4CCB-BCC0-74650FF552B1}/name=ACH02-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=6{F98DF557-0A19-48CB-BFA7-E929AEC067D7}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{FCF427ED-A467-4DDA-8BBF-82F207744B04}/name=ALV02B-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=5{FFA60AD4-4B2F-4B23-ABB4-D4D64B4382DF}/name=ACH03A-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=2NI 9144/Clk40/truefalseCHASSIS_NAMEPS_RA01BFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA</Property>
 						<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EACH01B-Reading/name=ACH01B-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=0ACH01B-Setpoint/name=ACH01B-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=0ACH02-Reading/name=ACH02-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=6ACH02-Setpoint/name=ACH02-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=6ACH03A-Reading/name=ACH03A-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=2ACH03A-Setpoint/name=ACH03A-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=2ACV01B-Reading/name=ACV01B-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=1ACV01B-Setpoint/name=ACV01B-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=1ACV03A-Reading/name=ACV03A-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=3ACV03A-Setpoint/name=ACV03A-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=3ALV02A-Reading/name=ALV02A-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=4ALV02A-Setpoint/name=ALV02A-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=4ALV02B-Reading/name=ALV02B-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=5ALV02B-Setpoint/name=ALV02B-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=5Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16EtherCAT StateNumberOfSyncRegistersForReadInProject=Auto;resource=/EtherCAT State;0;ReadMethodType=u8Filter CoefficientsActual Number of Elements=48;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001003C005F03510014000000020001000100000002FFFFFFFFFFFFFFFF0000001300000001000000000007FFFF00000001FFFFFFEF000000000000000100010000000000000000000000000000;InitDataHash=;DRAM Selection=;DRAM Max Outstanding Requests=32;DRAM Include Byte Enables=FALSE;DRAM Grant Time=5;Interface Configuration=Read A-Write BFPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolInput Virtual PointNumberOfSyncRegistersForReadInProject=Auto;resource=/Input Virtual Point;0;ReadMethodType=boolMod1/AI0resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod1/AI1resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod1/AI2resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod1/AI3resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9215,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/AO0resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO1resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO2resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO3resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Mod3/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO3:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO7:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DIO7:4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO3:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO7:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO7:4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=1,cRIOModule.DIO7_4InitialDir=1,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod5/AI0resource=/crio_Mod5/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AI1resource=/crio_Mod5/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AI2resource=/crio_Mod5/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AI3resource=/crio_Mod5/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9215,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod6/AO0resource=/crio_Mod6/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod6/AO1resource=/crio_Mod6/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod6/AO2resource=/crio_Mod6/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod6/AO3resource=/crio_Mod6/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod6[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 6,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]NI 9144/Clk40/truefalseCHASSIS_NAMEPS_RA01BFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGAOutput Virtual PointNumberOfSyncRegistersForReadInProject=Auto;resource=/Output Virtual Point;0;ReadMethodType=boolPS-RA01B-ADDR/name=PS-RA01B-ADDR/datatype=8/direction=1/index=10PS-RA01B-Controller-Filter/name=PS-RA01B-Controller-Filter/datatype=0/direction=1/index=10PS-RA01B-DATA/name=PS-RA01B-DATAsigned=1/intWordLen=2/fractWordLen=18/delta=1x2^-18/rangeMax=7FFFFx2^-18/rangeMin=Fx2^1/overflow=0/direction=1/index=9PS-RA01B-ON-OFF/name=PS-RA01B-ON-OFF/datatype=8/direction=1/index=8PS-RA01B-Status/name=PS-RA01B-Status/datatype=8/direction=0/index=8RRA01B-Reading/name=RRA01B-Readingsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=0/index=7RRA01B-Setpoint/name=RRA01B-Setpointsigned=1/intWordLen=5/fractWordLen=15/delta=1x2^-15/rangeMax=7FFFFx2^-15/rangeMin=Fx2^4/overflow=0/direction=1/index=7Scan Clockresource=/Scan Clock;0;ReadMethodType=bool</Property>
@@ -4417,36 +4438,14 @@ KeepAliveTimeout 60
 						<Item Name="Comb.vi" Type="VI" URL="../CIC/Comb.vi"/>
 						<Item Name="CombStage0.vi" Type="VI" URL="../CIC/CombStage0.vi"/>
 						<Item Name="CombStage1.vi" Type="VI" URL="../CIC/CombStage1.vi"/>
-						<Item Name="DllFxpIntAccumulator_sub.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/basic elements/FxpIntAccumulator/simVIs/DllFxpIntAccumulator_sub.vi"/>
-						<Item Name="EIO_ResourceConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/EIO_ResourceConfig.ctl"/>
 						<Item Name="Integerator.vi" Type="VI" URL="../CIC/Integerator.vi"/>
 						<Item Name="IntegratorStage0.vi" Type="VI" URL="../CIC/IntegratorStage0.vi"/>
 						<Item Name="IntegratorStage1.vi" Type="VI" URL="../CIC/IntegratorStage1.vi"/>
-						<Item Name="niFpgaContainerEmuAddTargetNameIfNeeded.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerEmuAddTargetNameIfNeeded.vi"/>
-						<Item Name="niFpgaContainerGetUniqueNameForEmu.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerGetUniqueNameForEmu.vi"/>
-						<Item Name="niFpgaExecutionStage.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaExecutionStage.ctl"/>
-						<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-						<Item Name="niFpgaMemoryEmulationValidateCache.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/niFpgaMemoryEmulationValidateCache.vi"/>
-						<Item Name="nifxpmath_DesktopException.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/SharedSubVIs/common/nifxpmath_DesktopException.vi"/>
-						<Item Name="nifxpmath_DesktopExceptionRpt.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/SharedSubVIs/common/nifxpmath_DesktopExceptionRpt.vi"/>
-						<Item Name="nifxpmath_IntAccumulator_SimConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/basic elements/FxpIntAccumulator/subVIs/nifxpmath_IntAccumulator_SimConfig.ctl"/>
-						<Item Name="niLvFpgaEmuInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/sdk/emulation/public/niLvFpgaEmuInfo.ctl"/>
-						<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
-						<Item Name="nirviEmuClasses.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuClasses.ctl"/>
-						<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-						<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
-						<Item Name="nirvimemoryEmulationManagerCache.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache.vi"/>
-						<Item Name="nirvimemoryEmulationManagerCache_Clear.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_Clear.vi"/>
-						<Item Name="nirvimemoryEmulationManagerCache_GetValue.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_GetValue.vi"/>
-						<Item Name="nirvimemoryEmulationManagerCache_InsertValue.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_InsertValue.vi"/>
-						<Item Name="nirvimemoryEmulationManagerCache_Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_Operations.ctl"/>
-						<Item Name="nirvimemoryEmulationManagerCache_SetValue.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_SetValue.vi"/>
 						<Item Name="Output.vi" Type="VI" URL="../CIC/Output.vi"/>
 						<Item Name="PS FPGA Filter Read Coefficients.vi" Type="VI" URL="../Filter VIs/PS FPGA Filter Read Coefficients.vi"/>
 						<Item Name="PS FPGA Filter.vi" Type="VI" URL="../Filter VIs/PS FPGA Filter.vi"/>
 						<Item Name="PS FPGA IIR Filter Core.vi" Type="VI" URL="../Filter VIs/PS FPGA IIR Filter Core.vi"/>
 						<Item Name="PS FPGA IIR Filter.vi" Type="VI" URL="../Filter VIs/PS FPGA IIR Filter.vi"/>
-						<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 					</Item>
 					<Item Name="Build Specifications" Type="Build">
 						<Item Name="PS-RA01B FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -4475,7 +4474,7 @@ KeepAliveTimeout 60
 							<Property Name="SupportDownload" Type="Bool">true</Property>
 							<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 							<Property Name="TargetName" Type="Str">PS-RA01B FPGA</Property>
-							<Property Name="TopLevelVI" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA01B/PS-RA01B FPGA/PS-RA01B FPGA.vi</Property>
+							<Property Name="TopLevelVI" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA01B/PS-RA01B FPGA/PS-RA01B FPGA (Testbench).vi</Property>
 						</Item>
 					</Item>
 				</Item>
@@ -5797,36 +5796,14 @@ KeepAliveTimeout 60
 						<Item Name="Comb.vi" Type="VI" URL="../CIC/Comb.vi"/>
 						<Item Name="CombStage0.vi" Type="VI" URL="../CIC/CombStage0.vi"/>
 						<Item Name="CombStage1.vi" Type="VI" URL="../CIC/CombStage1.vi"/>
-						<Item Name="DllFxpIntAccumulator_sub.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/basic elements/FxpIntAccumulator/simVIs/DllFxpIntAccumulator_sub.vi"/>
-						<Item Name="EIO_ResourceConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/EIO_ResourceConfig.ctl"/>
 						<Item Name="Integerator.vi" Type="VI" URL="../CIC/Integerator.vi"/>
 						<Item Name="IntegratorStage0.vi" Type="VI" URL="../CIC/IntegratorStage0.vi"/>
 						<Item Name="IntegratorStage1.vi" Type="VI" URL="../CIC/IntegratorStage1.vi"/>
-						<Item Name="niFpgaContainerEmuAddTargetNameIfNeeded.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerEmuAddTargetNameIfNeeded.vi"/>
-						<Item Name="niFpgaContainerGetUniqueNameForEmu.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerGetUniqueNameForEmu.vi"/>
-						<Item Name="niFpgaExecutionStage.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaExecutionStage.ctl"/>
-						<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-						<Item Name="niFpgaMemoryEmulationValidateCache.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/niFpgaMemoryEmulationValidateCache.vi"/>
-						<Item Name="nifxpmath_DesktopException.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/SharedSubVIs/common/nifxpmath_DesktopException.vi"/>
-						<Item Name="nifxpmath_DesktopExceptionRpt.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/SharedSubVIs/common/nifxpmath_DesktopExceptionRpt.vi"/>
-						<Item Name="nifxpmath_IntAccumulator_SimConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/basic elements/FxpIntAccumulator/subVIs/nifxpmath_IntAccumulator_SimConfig.ctl"/>
-						<Item Name="niLvFpgaEmuInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/sdk/emulation/public/niLvFpgaEmuInfo.ctl"/>
-						<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
-						<Item Name="nirviEmuClasses.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuClasses.ctl"/>
-						<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-						<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
-						<Item Name="nirvimemoryEmulationManagerCache.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache.vi"/>
-						<Item Name="nirvimemoryEmulationManagerCache_Clear.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_Clear.vi"/>
-						<Item Name="nirvimemoryEmulationManagerCache_GetValue.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_GetValue.vi"/>
-						<Item Name="nirvimemoryEmulationManagerCache_InsertValue.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_InsertValue.vi"/>
-						<Item Name="nirvimemoryEmulationManagerCache_Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_Operations.ctl"/>
-						<Item Name="nirvimemoryEmulationManagerCache_SetValue.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_SetValue.vi"/>
 						<Item Name="Output.vi" Type="VI" URL="../CIC/Output.vi"/>
 						<Item Name="PS FPGA Filter Read Coefficients.vi" Type="VI" URL="../Filter VIs/PS FPGA Filter Read Coefficients.vi"/>
 						<Item Name="PS FPGA Filter.vi" Type="VI" URL="../Filter VIs/PS FPGA Filter.vi"/>
 						<Item Name="PS FPGA IIR Filter Core.vi" Type="VI" URL="../Filter VIs/PS FPGA IIR Filter Core.vi"/>
 						<Item Name="PS FPGA IIR Filter.vi" Type="VI" URL="../Filter VIs/PS FPGA IIR Filter.vi"/>
-						<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 					</Item>
 					<Item Name="Build Specifications" Type="Build">
 						<Item Name="PS-RA02B FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -11720,14 +11697,23 @@ KeepAliveTimeout 60
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Case Matching.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/internet/utils/strutil.llb/Case Matching.ctl"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear All Faults.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/faults/Clear All Faults.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
+				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Create Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Create Semaphore.vi"/>
 				<Item Name="Destroy Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Destroy Semaphore.vi"/>
+				<Item Name="dfd_Mutate Filter Obj QSetting 0x100 to 0x200.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/_Objects.llb/dfd_Mutate Filter Obj QSetting 0x100 to 0x200.vi"/>
+				<Item Name="dfd_nMAC_Coef Map Type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/nMAC.llb/Typedefs/dfd_nMAC_Coef Map Type.ctl"/>
+				<Item Name="dfd_nMAC_Coef Reload API.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/nMAC.llb/Typedefs/dfd_nMAC_Coef Reload API.ctl"/>
+				<Item Name="dfd_nMAC_Execution Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/nMAC.llb/Typedefs/dfd_nMAC_Execution Mode.ctl"/>
+				<Item Name="dfd_nMAC_Implementation Parameter.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/nMAC.llb/Typedefs/dfd_nMAC_Implementation Parameter.ctl"/>
+				<Item Name="dfd_nMAC_Memory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/nMAC.llb/Typedefs/dfd_nMAC_Memory Type.ctl"/>
+				<Item Name="dfd_nMAC_Parameter.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/nMAC.llb/Typedefs/dfd_nMAC_Parameter.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="FTP Session Data.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/internet/ftp/ftp0.llb/FTP Session Data.ctl"/>
@@ -11743,16 +11729,28 @@ KeepAliveTimeout 60
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_DigFilter_CodeGen.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilter_CodeGen.lvlib"/>
+				<Item Name="NI_DigFilter_FXP.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilter_FXP.lvlib"/>
+				<Item Name="NI_DigFilterLicensed.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilterLicensed.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_InternetTK_Common_VIs.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/internet/NI_InternetTK_Common_VIs.lvlib"/>
 				<Item Name="NI_InternetTK_FTP_VIs.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/internet/NI_InternetTK_FTP_VIs.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Real-Time Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/real-time/NI_Real-Time Libraries.lvlib"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
+				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
+				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
+				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
+				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
+				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
+				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
+				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
@@ -11762,6 +11760,7 @@ KeepAliveTimeout 60
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Set Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Set Scan Engine Mode.vi"/>
 				<Item Name="Set Scan Engine Period.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Set Scan Engine Period.vi"/>
+				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
@@ -11773,18 +11772,26 @@ KeepAliveTimeout 60
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Common VIs.lvlib" Type="Library" URL="../Common VIs.lvlib"/>
 			<Item Name="Controller Global Variables.lvlib" Type="Library" URL="../Controller Global Variables.lvlib"/>
 			<Item Name="Controller VIs.lvlib" Type="Library" URL="../Controller VIs.lvlib"/>
+			<Item Name="Controller Write PS Filter Enable.vi" Type="VI" URL="../Controller VIs/Controller Write PS Filter Enable.vi"/>
 			<Item Name="Data Server VIs.lvlib" Type="Library" URL="../Data Server VIs.lvlib"/>
 			<Item Name="File VIs.lvlib" Type="Library" URL="../File VIs.lvlib"/>
 			<Item Name="Filter VIs.lvlib" Type="Library" URL="../Filter VIs.lvlib"/>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="LNLS Control VIs.lvlib" Type="Library" URL="../LNLS Control VIs.lvlib"/>
 			<Item Name="Log VIs.lvlib" Type="Library" URL="../Log VIs.lvlib"/>
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="LVDFD.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/LVDFD.dll"/>
 			<Item Name="Misc VIs.lvlib" Type="Library" URL="../Misc VIs.lvlib"/>
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

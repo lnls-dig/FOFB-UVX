@@ -28,30 +28,72 @@
   </Response_Matrix_Measurement>
   <Correction_Algorithm mems='14'>
     <Correction_Period type='U32'>320</Correction_Period>
-    <Reference_Orbit_Path type='Path'>c:\fofb\Orbit\Referencia.orb</Reference_Orbit_Path>
-    <Response_Matrix_Path type='Path'>c:\fofb\Response Matrix\BBY6TMedida.resp</Response_Matrix_Path>
-    <Correction_Matrix_Path type='Path'>c:\fofb\Correction Matrix\BBY6T.corr</Correction_Matrix_Path>
-    <PID_Horizontal_Gain type='DBL'>0.005</PID_Horizontal_Gain>
-    <PID_Vertical_Gain type='DBL'>0.005</PID_Vertical_Gain>
-    <PID_Horizontal_Integral_Time type='DBL'>0.00066</PID_Horizontal_Integral_Time>
-    <PID_Vertical_Integral_Time type='DBL'>0.00066</PID_Vertical_Integral_Time>
-    <PID_Horizontal_Derivative_Time type='DBL'>0.00066</PID_Horizontal_Derivative_Time>
-    <PID_Vertical_Derivative_Time type='DBL'>0.00066</PID_Vertical_Derivative_Time>
+    <Reference_Orbit_Path type='Path'>c:\fofb\Orbit\Unit Orbit.orb</Reference_Orbit_Path>
+    <Response_Matrix_Path type='Path'>c:\fofb\Response Matrix\Identity Matrix.resp</Response_Matrix_Path>
+    <Correction_Matrix_Path type='Path'>c:\fofb\Correction Matrix\Identity Matrix.corr</Correction_Matrix_Path>
+    <PID_Horizontal_Gain type='DBL'>0.1</PID_Horizontal_Gain>
+    <PID_Vertical_Gain type='DBL'>0</PID_Vertical_Gain>
+    <PID_Horizontal_Integral_Time type='DBL'>0</PID_Horizontal_Integral_Time>
+    <PID_Vertical_Integral_Time type='DBL'>0</PID_Vertical_Integral_Time>
+    <PID_Horizontal_Derivative_Time type='DBL'>0</PID_Horizontal_Derivative_Time>
+    <PID_Vertical_Derivative_Time type='DBL'>0</PID_Vertical_Derivative_Time>
     <Beam_Current_FOFB_Threshold type='DBL'>10</Beam_Current_FOFB_Threshold>
     <Decouple_H-V type='Bool'>TRUE</Decouple_H-V>
     <Use_Additional_BPM_LPF type='Bool'>FALSE</Use_Additional_BPM_LPF>
     <BPM_LPF_Cutoff type='DBL'>10</BPM_LPF_Cutoff>
   </Correction_Algorithm>
-  <Acquisition_Network dim='[0]' type='Cluster'>
+  <Acquisition_Network dim='[1]' type='Cluster'>
     <Node mems='2'>
-      <Chassis_Name type='String'></Chassis_Name>
-      <Variables dim='[0]' type='Cluster'>
+      <Chassis_Name type='String'>PS-RA01B (Cloned)</Chassis_Name>
+      <Variables dim='[7]' type='Cluster'>
         <Variable mems='5'>
-          <Variable_Name type='String'></Variable_Name>
-          <Matrix_Order type='U32'></Matrix_Order>
-          <Location type='DBL'></Location>
-          <Plane type='Enum U8'></Plane>
-          <On_Correction type='Bool'></On_Correction>
+          <Variable_Name type='String'>ACH01B</Variable_Name>
+          <Matrix_Order type='U32'>1</Matrix_Order>
+          <Location type='DBL'>1</Location>
+          <Plane type='Enum U8' sel='H'>0</Plane>
+          <On_Correction type='Bool'>FALSE</On_Correction>
+        </Variable>
+        <Variable mems='5'>
+          <Variable_Name type='String'>ACV01B</Variable_Name>
+          <Matrix_Order type='U32'>4</Matrix_Order>
+          <Location type='DBL'>1</Location>
+          <Plane type='Enum U8' sel='V'>1</Plane>
+          <On_Correction type='Bool'>FALSE</On_Correction>
+        </Variable>
+        <Variable mems='5'>
+          <Variable_Name type='String'>ACH03A</Variable_Name>
+          <Matrix_Order type='U32'>3</Matrix_Order>
+          <Location type='DBL'>1</Location>
+          <Plane type='Enum U8' sel='H'>0</Plane>
+          <On_Correction type='Bool'>FALSE</On_Correction>
+        </Variable>
+        <Variable mems='5'>
+          <Variable_Name type='String'>ACV03A</Variable_Name>
+          <Matrix_Order type='U32'>7</Matrix_Order>
+          <Location type='DBL'>1</Location>
+          <Plane type='Enum U8' sel='V'>1</Plane>
+          <On_Correction type='Bool'>FALSE</On_Correction>
+        </Variable>
+        <Variable mems='5'>
+          <Variable_Name type='String'>ALV02A</Variable_Name>
+          <Matrix_Order type='U32'>5</Matrix_Order>
+          <Location type='DBL'>2.5</Location>
+          <Plane type='Enum U8' sel='V'>1</Plane>
+          <On_Correction type='Bool'>FALSE</On_Correction>
+        </Variable>
+        <Variable mems='5'>
+          <Variable_Name type='String'>ALV02B</Variable_Name>
+          <Matrix_Order type='U32'>6</Matrix_Order>
+          <Location type='DBL'>2.5</Location>
+          <Plane type='Enum U8' sel='V'>1</Plane>
+          <On_Correction type='Bool'>FALSE</On_Correction>
+        </Variable>
+        <Variable mems='5'>
+          <Variable_Name type='String'>ACH02</Variable_Name>
+          <Matrix_Order type='U32'>2</Matrix_Order>
+          <Location type='DBL'>1</Location>
+          <Plane type='Enum U8' sel='H'>0</Plane>
+          <On_Correction type='Bool'>TRUE</On_Correction>
         </Variable>
       </Variables>
     </Node>
@@ -75,7 +117,7 @@
           <Matrix_Order type='U32'>4</Matrix_Order>
           <RMM_Step_Factor type='DBL'>1</RMM_Step_Factor>
           <Plane type='Enum U8' sel='V'>1</Plane>
-          <On_Correction type='Bool'>TRUE</On_Correction>
+          <On_Correction type='Bool'>FALSE</On_Correction>
           <Kc type='DBL'>0</Kc>
           <Ti type='DBL'>0</Ti>
           <Td type='DBL'>0</Td>
@@ -85,7 +127,7 @@
           <Matrix_Order type='U32'>3</Matrix_Order>
           <RMM_Step_Factor type='DBL'>1</RMM_Step_Factor>
           <Plane type='Enum U8' sel='H'>0</Plane>
-          <On_Correction type='Bool'>TRUE</On_Correction>
+          <On_Correction type='Bool'>FALSE</On_Correction>
           <Kc type='DBL'>0</Kc>
           <Ti type='DBL'>0</Ti>
           <Td type='DBL'>0</Td>
@@ -95,7 +137,7 @@
           <Matrix_Order type='U32'>7</Matrix_Order>
           <RMM_Step_Factor type='DBL'>1</RMM_Step_Factor>
           <Plane type='Enum U8' sel='V'>1</Plane>
-          <On_Correction type='Bool'>TRUE</On_Correction>
+          <On_Correction type='Bool'>FALSE</On_Correction>
           <Kc type='DBL'>0</Kc>
           <Ti type='DBL'>0</Ti>
           <Td type='DBL'>0</Td>
@@ -105,7 +147,7 @@
           <Matrix_Order type='U32'>5</Matrix_Order>
           <RMM_Step_Factor type='DBL'>2.5</RMM_Step_Factor>
           <Plane type='Enum U8' sel='V'>1</Plane>
-          <On_Correction type='Bool'>TRUE</On_Correction>
+          <On_Correction type='Bool'>FALSE</On_Correction>
           <Kc type='DBL'>0</Kc>
           <Ti type='DBL'>0</Ti>
           <Td type='DBL'>0</Td>
@@ -115,7 +157,7 @@
           <Matrix_Order type='U32'>6</Matrix_Order>
           <RMM_Step_Factor type='DBL'>2.5</RMM_Step_Factor>
           <Plane type='Enum U8' sel='V'>1</Plane>
-          <On_Correction type='Bool'>TRUE</On_Correction>
+          <On_Correction type='Bool'>FALSE</On_Correction>
           <Kc type='DBL'>0</Kc>
           <Ti type='DBL'>0</Ti>
           <Td type='DBL'>0</Td>
@@ -125,7 +167,7 @@
           <Matrix_Order type='U32'>2</Matrix_Order>
           <RMM_Step_Factor type='DBL'>1</RMM_Step_Factor>
           <Plane type='Enum U8' sel='H'>0</Plane>
-          <On_Correction type='Bool'>TRUE</On_Correction>
+          <On_Correction type='Bool'>FALSE</On_Correction>
           <Kc type='DBL'>0</Kc>
           <Ti type='DBL'>0</Ti>
           <Td type='DBL'>0</Td>
