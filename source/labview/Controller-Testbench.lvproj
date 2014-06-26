@@ -1632,7 +1632,6 @@ KeepAliveTimeout 60
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			<Item Name="XML VIs.lvlib" Type="Library" URL="../XML VIs.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
