@@ -26,7 +26,6 @@
 	<Property Name="varPersistentID:{1D8B7124-28E5-4C8E-B7FF-2CB1257CA9A2}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA06B/User-Defined Variables/PS-RA06B-ON-OFF</Property>
 	<Property Name="varPersistentID:{1F8EB8E3-0D56-4F33-9F02-EA487A38823D}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA01B/User-Defined Variables/ACV01B-Setpoint</Property>
 	<Property Name="varPersistentID:{2020E43B-EAE1-4FE7-A107-4EFD639B3994}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA01B/User-Defined Variables/ACH02-Reading</Property>
-	<Property Name="varPersistentID:{20D7F212-53C2-4B5E-A725-499BE6C635DB}" Type="Ref">/FOFB-Controller/Dependencies/Controller VIs.lvlib/Matrix</Property>
 	<Property Name="varPersistentID:{23EF125F-DE19-436A-9A5F-D317F391A500}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA06B/User-Defined Variables/RRA06B-Reading</Property>
 	<Property Name="varPersistentID:{256A7218-1476-4E53-828F-28D16DC29E8E}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA03B/User-Defined Variables/RRA03B-Setpoint</Property>
 	<Property Name="varPersistentID:{26CFEF02-0A87-4172-9990-850B0E8C684D}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA04B/User-Defined Variables/ALV08B-Reading</Property>
@@ -154,6 +153,7 @@
 	<Property Name="varPersistentID:{D8C37E4B-BEBC-42E5-8208-8F107FD0FE33}" Type="Ref">/FOFB-Controller/Acquisition Network/BPM-Chassis01/User-Defined Variables/AMP03AH</Property>
 	<Property Name="varPersistentID:{D8DD2CA8-4398-42BD-8DDC-F060FB00A45A}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA02B/User-Defined Variables/ACH05A-Reading</Property>
 	<Property Name="varPersistentID:{D984DB6A-946F-4D79-BFE3-E168F7504DDE}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA03B/User-Defined Variables/ACV07A-Setpoint</Property>
+	<Property Name="varPersistentID:{DC3EAEF7-7696-4CE1-8EB6-879A24A4171B}" Type="Ref">/FOFB-Controller/Controller VIs.lvlib/Matrix</Property>
 	<Property Name="varPersistentID:{DE2138BE-3B1A-404C-93B5-5E6E23C45A3D}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA04B/User-Defined Variables/ACV07B-Reading</Property>
 	<Property Name="varPersistentID:{DF03218B-1171-460E-B2CB-797F92B74387}" Type="Ref">/FOFB-Controller/Actuation Network/PS-RA01B/User-Defined Variables/PS-RA01B-ADDR</Property>
 	<Property Name="varPersistentID:{E07DDDCF-5D26-4AD8-8DE0-5D087D95870E}" Type="Ref">/FOFB-Controller/Acquisition Network/BPM-Chassis01/User-Defined Variables/AMP02BV</Property>
@@ -11670,6 +11670,7 @@ KeepAliveTimeout 60
 			</Item>
 		</Item>
 		<Item Name="Controller Main.vi" Type="VI" URL="../Controller VIs/Controller Main.vi"/>
+		<Item Name="Controller VIs.lvlib" Type="Library" URL="../Controller VIs.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="vi.lib" Type="Folder">
@@ -11756,7 +11757,6 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="Common VIs.lvlib" Type="Library" URL="../Common VIs.lvlib"/>
 			<Item Name="Controller Global Variables.lvlib" Type="Library" URL="../Controller Global Variables.lvlib"/>
-			<Item Name="Controller VIs.lvlib" Type="Library" URL="../Controller VIs.lvlib"/>
 			<Item Name="Controller Write PS Filter Enable.vi" Type="VI" URL="../Controller VIs/Controller Write PS Filter Enable.vi"/>
 			<Item Name="Data Server VIs.lvlib" Type="Library" URL="../Data Server VIs.lvlib"/>
 			<Item Name="File VIs.lvlib" Type="Library" URL="../File VIs.lvlib"/>
@@ -11769,8 +11769,8 @@ KeepAliveTimeout 60
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
-			<Item Name="LVDFD.dll" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2011/resource/LVDFD.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="LVDFD.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/LVDFD.dll"/>
 			<Item Name="Misc VIs.lvlib" Type="Library" URL="../Misc VIs.lvlib"/>
 			<Item Name="niecatviapi.dll" Type="Document" URL="niecatviapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -11784,7 +11784,6 @@ KeepAliveTimeout 60
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			<Item Name="XML VIs.lvlib" Type="Library" URL="../XML VIs.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
