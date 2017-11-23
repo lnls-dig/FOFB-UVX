@@ -1,0 +1,37 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "63,658,691,1198"
+
+[AB_Cache_{EE325E09-9FD6-4854-A317-98EECFC3B5F5}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "75cdd4d72e829071e371d3d8c9cf6184"
+Cache_GenFile_Count[Integer] = 4
+Cache_GenFile[0][Path] = "/C/Arq/Controle/FOFB/gui_setup/Build/GUI FOFB UVX.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Arq/Controle/FOFB/gui_setup/Build/GUI FOF"
+Cache_GenFile[1][Path] Line0002 = "B UVX.aliases"
+Cache_GenFile[2][Path] = "/C/Arq/Controle/FOFB/gui_setup/Build/GUI FOFB UVX.ini"
+Cache_GenFile[3][Path] = "/C/Arq/Controle/FOFB/gui_setup/Build/data/lvanlys.dll"
+Cache_GenGUID_Count[Integer] = 4
+Cache_GenGUID[0][String] = "{CBDF0497-C3B5-4C8C-92DE-155593930B1D}"
+Cache_GenGUID[1][String] = "{DAB1BE05-FBFA-4AE8-B541-995A8934D918}"
+Cache_GenGUID[2][String] = "{B76DD414-CCC7-43FA-AC0F-42BC9B8110E2}"
+Cache_GenGUID[3][String] = ""
+Cache_OutputDir[Path] = "/C/Arq/Controle/FOFB/gui_setup/Build"
+
+[AB_Cache_{702C1748-5E96-4398-8C93-AB72A2B735CB}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "75cdd4d72e829071e371d3d8c9cf6184"
+Cache_GenFile_Count[Integer] = 4
+Cache_GenFile[0][Path] = "/C/Arq/Controle/FOFB/gui_setup/Build/GUI FOFB UVX.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Arq/Controle/FOFB/gui_setup/Build/GUI FOF"
+Cache_GenFile[1][Path] Line0002 = "B UVX.aliases"
+Cache_GenFile[2][Path] = "/C/Arq/Controle/FOFB/gui_setup/Build/GUI FOFB UVX.ini"
+Cache_GenFile[3][Path] = "/C/Arq/Controle/FOFB/gui_setup/Build/data/lvanlys.dll"
+Cache_GenGUID_Count[Integer] = 4
+Cache_GenGUID[0][String] = "{CBDF0497-C3B5-4C8C-92DE-155593930B1D}"
+Cache_GenGUID[1][String] = "{DAB1BE05-FBFA-4AE8-B541-995A8934D918}"
+Cache_GenGUID[2][String] = "{B76DD414-CCC7-43FA-AC0F-42BC9B8110E2}"
+Cache_GenGUID[3][String] = ""
+Cache_OutputDir[Path] = "/C/Arq/Controle/FOFB/gui_setup/Build"
+

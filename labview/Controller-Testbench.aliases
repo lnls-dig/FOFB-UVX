@@ -1,0 +1,9 @@
+[FOFB-Controller-Spare]
+FOFB-Controller-Spare = "10.0.18.132"
+
+[My Computer]
+My Computer = "10.0.18.50"
+
+[RT CompactRIO Target]
+RT CompactRIO Target = "0.0.0.0"
+

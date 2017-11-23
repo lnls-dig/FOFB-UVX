@@ -1,0 +1,37 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "407,652,1002,1054"
+
+[AB_Cache_{7B8ABC8D-A751-4BB4-BF00-1A460D98B61F}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "4744e9467791ab3f6bda06fdccb3b4ea"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Arq/Controle/FOFB/builds/fofb-archiver/fo"
+Cache_GenFile[0][Path] Line0002 = "fb_archiver.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Arq/Controle/FOFB/builds/fofb-archiver/fo"
+Cache_GenFile[1][Path] Line0002 = "fb_archiver.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Arq/Controle/FOFB/builds/fofb-archiver/fo"
+Cache_GenFile[2][Path] Line0002 = "fb_archiver.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{73496C0D-01E0-4AF6-AC3F-A0C429080944}"
+Cache_GenGUID[1][String] = "{740D5E99-43A5-4A76-A826-21351156DAE9}"
+Cache_GenGUID[2][String] = "{173A02DF-D386-460D-935C-41152FE38381}"
+Cache_OutputDir[Path] = "/C/Arq/Controle/FOFB/builds/fofb-archiver"
+
+[AB_Cache_{D077BC63-D5DF-481B-8F35-F2D9138E101A}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "4744e9467791ab3f6bda06fdccb3b4ea"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Arq/Controle/FOFB/builds/fofb-archiver/fo"
+Cache_GenFile[0][Path] Line0002 = "fb_archiver.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Arq/Controle/FOFB/builds/fofb-archiver/fo"
+Cache_GenFile[1][Path] Line0002 = "fb_archiver.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Arq/Controle/FOFB/builds/fofb-archiver/fo"
+Cache_GenFile[2][Path] Line0002 = "fb_archiver.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{73496C0D-01E0-4AF6-AC3F-A0C429080944}"
+Cache_GenGUID[1][String] = "{740D5E99-43A5-4A76-A826-21351156DAE9}"
+Cache_GenGUID[2][String] = "{173A02DF-D386-460D-935C-41152FE38381}"
+Cache_OutputDir[Path] = "/C/Arq/Controle/FOFB/builds/fofb-archiver"
+
